@@ -1,0 +1,11 @@
+.home-section{
+    background: #222222;
+    color: white;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 910px){
+  .home-section{
+    border-radius: 3px;
+  }
+}

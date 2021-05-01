@@ -1,0 +1,9 @@
+.services-section h2::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 7px;
+}

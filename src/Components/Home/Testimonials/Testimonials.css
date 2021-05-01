@@ -1,0 +1,25 @@
+.testimonial-section h2::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+.testimonial-section .owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next
+{
+    background: #007bff !important;
+    color: transparent !important;
+    width: 50px !important;
+    height: 4px !important;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.testimonial-section .owl-theme .owl-dots {
+    display: none !important;
+}
+
+
