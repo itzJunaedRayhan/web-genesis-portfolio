@@ -1,0 +1,41 @@
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 15px 45px;
+    background-color: #252525;
+    border-top: 2px solid #333;
+    margin: 20px -70px -20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.footer-section .social-icons ul{
+    list-style: none;
+    display: flex;
+    margin: 5px 15px;
+    padding: 0 20px;
+}
+.footer-section .social-icons ul li a{
+    display: block;
+    padding: 0px 25px 10px 25px;
+}
+.copyright-text{
+   margin: 0 35px;
+   font-weight: bold;
+}
+.copyright-text .logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: blue;
+    color: white;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+} 

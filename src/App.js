@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './App.css';
 import Home from "./Components/Home/Home/Home";
+import Resume from "./Components/Resume/Resume/Resume";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home/>
+          </Route>
+          <Route path="/resume">
+            <Resume/>
           </Route>
           <Route path="*">
             <Home/>

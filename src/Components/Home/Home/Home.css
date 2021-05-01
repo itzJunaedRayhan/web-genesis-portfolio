@@ -2,6 +2,7 @@
     background: #222222;
     color: white;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 910px){

@@ -1,4 +1,7 @@
-.fact-section h2::after{
+.education-section:last-child{
+    border-color: hotpink;
+}
+.education-section h2::after{
     content: "";
     display: block;
     width: 150px;
@@ -6,10 +9,4 @@
     background-color: blue;
     border-radius: 10px;
     margin-top: 7px;
-}
-.fact-section{
-    width: 100%;
-}
-.fact-wrapper{
-    margin: 50px 0;
 }

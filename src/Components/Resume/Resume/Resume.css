@@ -1,0 +1,42 @@
+.resume-section{
+    background: #222222;
+    color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.resume-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #252525;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 65px 70px;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: 65px;
+}
+.resume-title h1 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.resume-title h6 {
+    color: #aaa;
+    font-weight: 400;
+    font-size: 16px;
+}
+.education-experience{
+  padding: 0px 15px;
+}
+@media only screen and (max-width: 910px){
+  .resume-section{
+    border-radius: 0px;
+  }
+}
+@media only screen and (min-width: 720px){
+  .education-experience{
+    padding: 0px 100px;
+  }
+}

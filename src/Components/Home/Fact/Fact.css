@@ -1,0 +1,30 @@
+.fact{
+    width: 100%;
+    margin: 15px 0;
+    height: 220px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+}
+.fact .fact-icon{
+    font-size: 35px;
+    color: blue;
+}
+.fact .fact-content{
+    color: #fff;
+}
+.fact-content h4{
+    font-size: 16px;
+    color: #F5F5F5;
+    padding: 8px 0;
+}
+.fact-content h1{
+    font-size: 48px;
+    color: #D5D5D5;
+}

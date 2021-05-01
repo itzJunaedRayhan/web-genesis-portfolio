@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css'
 import profile from '../../../images/JunaedIslam.png'
 import Menubar from '../Menubar/Menubar';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -20,8 +21,8 @@ const Header = () => {
                             <h1>Junaed Islam</h1>
                             <p>Dedicated web developer with 1+ year of job experience, skilled in JavaScript, React, React-native. Developed 8+ websites, including E-Commerce, Travel Agency, Doctors Appointment websites. Fixed Bugs and design issues using Chrome Dev Tools. Passionate about software architecture and learning new technologies</p>
                             <div className="button-wrapper">
-                                <a href="" className="submit-btn">Download CV</a>
-                                <a href="" className="submit-btn contact-btn">Contact Us</a>
+                                <a href="https://drive.google.com/file/d/1GjSoQbLZ4AJp18gFDWpItZKTHd0bNj1E/view?usp=sharing" target="_blank" className="submit-btn">Download CV</a>
+                                <Link to="/contact" className="submit-btn contact-btn">Contact Us</Link>
                             </div>
                         </div>
                     </div>
