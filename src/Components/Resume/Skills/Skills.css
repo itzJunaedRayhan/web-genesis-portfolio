@@ -1,0 +1,32 @@
+.skills-section h2{
+    padding-bottom: 5px;
+}
+.skills-section h2::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+.skills-section{
+    margin-top: 5px;
+}
+
+
+
+
+.skillbar {
+    height: 15px !important;
+    line-height: 12px !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+    overflow: hidden !important;
+}
+.skillbar-title{
+    width: 113px !important;
+    border-radius: 25px 0 0 25px !important; 
+    background-color: #007CED !important;
+    color: #282626 !important;
+}

@@ -1,0 +1,41 @@
+.experience-wrapper{
+    border-left: 0.5px solid rgba(124, 124, 124, 0.342);
+    border-bottom: 0.5px solid rgba(124, 124, 124, 0.342);
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.experience-wrapper:last-child{
+    border-bottom-color: transparent;
+}
+.experience-wrapper .year-and-company{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    transform: translateX(-40px);
+}
+.year-and-company h5{
+    font-size: 14px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 6px 20px;
+    margin-right: 17px;
+}
+.year-and-company h6{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #D5D5D5;
+}
+.experience-body{
+    padding: 15px 25px;
+}
+.experience-body h3{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.experience-body p{
+    font-size: 12px;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #D5D5D5;
+}

@@ -1,4 +1,7 @@
-.education-section h2::after{
+.experiences-section h2{
+    padding-bottom: 5px;
+}
+.experiences-section h2::after{
     content: "";
     display: block;
     width: 150px;
@@ -6,4 +9,7 @@
     background-color: blue;
     border-radius: 10px;
     margin-top: 7px;
+}
+.experiences-section{
+    margin-top: 5px;
 }
