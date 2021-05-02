@@ -1,19 +1,16 @@
 $(document).ready(function() {
-    $(".skill-per").each(function() {
-        var $this = $(this);
-        var per = $this.attr("per");
-        $this.css("width", per + "%");
-        $({ animatedValue: 0 }).animate(
-          { animatedValue: per },
-          {
-            duration: 1000,
-            step: function() {
-              $this.attr("per", Math.floor(this.animatedValue) + "%");
-            },
-            complete: function() {
-              $this.attr("per", Math.floor(this.animatedValue) + "%");
-            }
-          }
-        );
-      });
+
+      let $btns = $('.project-area .button-group button');
+    $btns.Click(function (e) {
+
+        $('.project-area .button-group button').removeClass('active');
+        e.target.classList.add('active');
+
+        let selector = $(e.target).attr('data-filter');
+        $('.project-area .grid').isotope({
+            filter: selector
+        });
+
+        return false;
+    })
 });
