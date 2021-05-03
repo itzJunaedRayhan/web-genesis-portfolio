@@ -99,7 +99,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 10px;
+    margin: 10px 100px;
     height: 100%;
     width: 100%;
 }
