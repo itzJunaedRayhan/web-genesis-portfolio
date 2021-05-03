@@ -1,6 +1,8 @@
 import React from 'react';
 import Footers from '../../Home/Footers/Footers';
 import Menubar from '../../Home/Menubar/Menubar';
+import ContactForm from '../ContactForm/ContactForm';
+import mapImg from '../../../images/map.png'
 import './Contacts.css'
 const Contacts = () => {
     return (
@@ -11,7 +13,7 @@ const Contacts = () => {
                 <h6>Get In Touch</h6>
             </div>
             <div className="row contacts-wrapper">
-                <h1 style={{color: 'red'}}>Contacts Section Coming Tomorrow</h1>
+                <ContactForm/>
             </div>
             <Footers />
         </div>

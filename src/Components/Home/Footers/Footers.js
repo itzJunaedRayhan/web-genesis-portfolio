@@ -8,10 +8,10 @@ const Footers = () => {
         <section className="footer-section">
             <div className="social-icons">
                 <ul>
-                    <li><a href="https://twitter.com/itzJunaedRayhan" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                    <li><a href="https://www.facebook.com/JKwebGenesis" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                    <li><a href="https://www.instagram.com/itzjunaedrayhan/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                    <li><a href="https://www.linkedin.com/in/itzJunaedRayhan/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                    <li><a href="https://twitter.com/itzJunaedRayhan"  target="_blank"  rel="noreferrer" ><FontAwesomeIcon icon={faTwitter} /></a></li>
+                    <li><a href="https://www.facebook.com/JKwebGenesis"  target="_blank"  rel="noreferrer" ><FontAwesomeIcon icon={faFacebook} /></a></li>
+                    <li><a href="https://www.instagram.com/itzjunaedrayhan/"  target="_blank"  rel="noreferrer" ><FontAwesomeIcon icon={faInstagram} /></a></li>
+                    <li><a href="https://www.linkedin.com/in/itzJunaedRayhan/"  target="_blank"  rel="noreferrer" ><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 </ul>
             </div>
             <div className="copyright-text pr-5">
