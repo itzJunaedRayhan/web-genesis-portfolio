@@ -36,7 +36,9 @@
     padding-right: 15px;
 }
 .portfolio-wrapper{
-  padding: 0px 15px 0 25px;
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
 }
 
 

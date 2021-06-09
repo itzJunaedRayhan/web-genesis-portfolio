@@ -21,7 +21,7 @@ const Header = () => {
                             <h1>Junaed Islam</h1>
                             <p>Dedicated web developer with 1+ year of job experience, skilled in JavaScript, React, React-native. Developed 8+ websites, including E-Commerce, Travel Agency, Doctors Appointment websites. Fixed Bugs and design issues using Chrome Dev Tools. Passionate about software architecture and learning new technologies</p>
                             <div className="button-wrapper">
-                                <a href="https://drive.google.com/uc?export=download&id=1bYtk4n3G6U5_3nSXbmtg3att0I_b9C8F" className="submit-btn">Download CV</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1nfBYrXkAR6f4SuV-XUAH3AEFH1Fl_N6q" className="submit-btn">Download CV</a>
                                 <Link to="/contact" className="submit-btn contact-btn">Contact Us</Link>
                             </div>
                         </div>

@@ -5,7 +5,7 @@ const Service = ({service}) => {
         <div className="col-md-6 service">
             <div className="service-wrapper">
                 <div className="service-icon">
-                    <img src={service.icon} alt="" width="80px" height="60px"/>
+                    <img src={service.icon} alt="" />
                 </div>
                 <div className="service-content">
                     <h4>{service.name}</h4>

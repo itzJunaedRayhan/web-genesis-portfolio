@@ -6,6 +6,7 @@ import Contacts from "./Components/Contact/Contacts/Contacts";
 import Home from "./Components/Home/Home/Home";
 import Login from "./Components/Login/Login/Login";
 import Portfolio from "./Components/Portfolio/Portfolio/Portfolio";
+import ProjectDetails from "./Components/Portfolio/ProjectDetails/ProjectDetails";
 import Resume from "./Components/Resume/Resume/Resume";
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/portfolio">
             <Portfolio/>
+          </Route>
+          <Route path="/projects/projectDetails/:id">
+            <ProjectDetails/>
           </Route>
           <Route path="/blog">
             <Blogs/>

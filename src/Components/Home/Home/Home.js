@@ -7,6 +7,7 @@ import Clients from '../Clients/Clients';
 import Facts from '../Facts/Facts';
 import Pricings from '../Pricings/Pricings';
 import Footers from '../Footers/Footers';
+
 const Home = () => {
     return (
         <section className="home-section">

@@ -1,0 +1,32 @@
+.project-details{
+    background: #222222;
+    min-height: 80vh;
+    box-sizing: border-box;
+}
+.project-header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+}
+.project-details-image{
+    margin: 25px;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+}
+.project-details-image img{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 720px){
+    .project-content{
+        margin: 0 20px 20px 20px;
+    }
+}
